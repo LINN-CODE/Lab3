@@ -45,6 +45,9 @@ def bubble_sort(arr, sorting_order):
 def main():
     # Driver code to test above
     arr = [64, 34, 25, 12, 22, 11, 90]
+    arr_2 = [64, 34, 25, 12, 22, 11, 90, 64, 34, 25, 12, 22, 11, 90]
+    arr_3 = []
+    arr_4 = ['ET0735', 1, 2, 3, 4, 5, 'DevOPs']
 
     # Sort in ascending order
     result = bubble_sort(arr, SORT_ASCENDING)
@@ -56,6 +59,20 @@ def main():
     result = bubble_sort(arr, SORT_DESCENDING)
     print(result)
 
+    # If >= 10 numbers are entered
+    print("If >= 10 numbers are entered ")
+    result = bubble_sort(arr_2, SORT_ASCENDING)
+    print(result)
+
+    # If 0 numbers are entered
+    print("If 0 numbers are entered")
+    result = bubble_sort(arr_3, SORT_ASCENDING)
+    print(result)
+
+    # If any of the values entered are not integers 
+    print("If any of the value entered are not integers ")
+    result = bubble_sort(arr_4, SORT_ASCENDING)
+    print(result)
 if __name__ == "__main__":
     main()
 

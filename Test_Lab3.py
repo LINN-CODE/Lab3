@@ -31,7 +31,7 @@ def test_bubble_sort_invalid():
 
 def test_bubble_greater_than_ten():
     result = []
-    input_arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 19]
+    input_arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 
     result = Lab3.bubble_sort(input_arr, 0)
 
