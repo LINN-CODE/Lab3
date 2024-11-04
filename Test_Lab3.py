@@ -41,7 +41,7 @@ def test_bubble_no_number():
     result = []
     input_arr = []
     result = Lab3.bubble_sort(input_arr, 0)
-
+    
     assert (result == 0)
 
 def test_bubble_string():
