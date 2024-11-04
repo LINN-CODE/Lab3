@@ -23,7 +23,11 @@ def calculate_average_salary():
     average = 0
 
     #add your implementation to calculate here
+    for item in employee_data:
+        total = total + item["salary"]
+        average = average + 1
 
+    average = total/average
 
     return average
 
